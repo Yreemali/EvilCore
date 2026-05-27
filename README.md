@@ -8,5 +8,5 @@ Experimental compile-time adaptive execution framework written in cursed C++.
 
 **Good luck building it.**
 
-#License?
+# License?
 Do whatever you want. The compiler will judge you either way.
