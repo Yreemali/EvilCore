@@ -13,9 +13,9 @@ Experimental compile-time adaptive execution framework written in cursed C++.
 > Your antivirus will not like this. That's expected.
 
 > ⚠️**Warning:** The author is not responsible for:
-> compiler crashes
-> hardware overheating
-> corrupted stack traces
+> compiler crashes,
+> hardware overheating,
+> corrupted stack traces,
 > psychological damage caused by reading the source code
 
 # **Good luck building it.**
