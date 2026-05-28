@@ -18,7 +18,31 @@ Experimental compile-time adaptive execution framework written in cursed C++.
 > corrupted stack traces,
 > psychological damage caused by reading the source code
 
+## Overview
+
+EvilCore is an experimental C++20 project focused on:
+- compile-time SAT solving
+- encrypted execution paths
+- low-level Linux internals
+- anti-analysis techniques
+- template metaprogramming abuse
+- UB-sensitive execution behavior
+
+The repository intentionally explores compiler edge cases and non-trivial runtime behavior.
+
 # **Good luck building it.**
+
+## Build
+
+```bash
+g++ -std=c++20 main.cpp -o evilcore
+
+Compilation success is not guaranteed. Behavior may vary depending on:
+compiler version
+- optimization level
+- CPU architecture
+- kernel version
+- entropy conditions
 
 # License?
 Do whatever you want. The compiler will judge you either way.
