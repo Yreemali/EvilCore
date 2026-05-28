@@ -39,6 +39,7 @@ Do whatever you want. The compiler will judge you either way.
 
 ```bash
 g++ -std=c++20 main.cpp -o evilcore
+```
 
 Compilation success is not guaranteed. Behavior may vary depending on:
 compiler version
