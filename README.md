@@ -30,8 +30,6 @@ EvilCore is an experimental C++20 project focused on:
 
 The repository intentionally explores compiler edge cases and non-trivial runtime behavior.
 
-# **Good luck building it.**
-
 ## Build
 
 ```bash
@@ -57,3 +55,5 @@ Static and dynamic analysis may be complicated by:
 
 ## License?
 Do whatever you want. The compiler will judge you either way.
+
+# **Good luck building it.**
