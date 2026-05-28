@@ -32,9 +32,6 @@ The repository intentionally explores compiler edge cases and non-trivial runtim
 
 # **Good luck building it.**
 
-# License?
-Do whatever you want. The compiler will judge you either way.
-
 ## Build
 
 ```bash
@@ -42,14 +39,13 @@ g++ -std=c++20 main.cpp -o evilcore
 ```
 
 Compilation success is not guaranteed. Behavior may vary depending on:
-compiler version
+- compiler version
 - optimization level
 - CPU architecture
 - kernel version
 - entropy conditions
 
 
-```markdown id="0g0q1m"
 ## Reverse Engineering
 
 Static and dynamic analysis may be complicated by:
@@ -58,3 +54,6 @@ Static and dynamic analysis may be complicated by:
 - self-debugging behavior
 - indirect execution paths
 - compile-time generated structures
+
+## License?
+Do whatever you want. The compiler will judge you either way.
