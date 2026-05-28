@@ -12,10 +12,10 @@ Experimental compile-time adaptive execution framework written in cursed C++.
 > sends signals to its own PID, and forks on startup.  
 > Your antivirus will not like this. That's expected.
 
-> ⚠️**Warning:** The author is not responsible for:
-> - compiler crashes,
-> - hardware overheating,
-> - corrupted stack traces,
+> ⚠️ **Warning:** The author is not responsible for:
+> - compiler crashes
+> - hardware overheating
+> - corrupted stack traces
 > - psychological damage caused by reading the source code
 
 ## Overview
@@ -56,4 +56,4 @@ Static and dynamic analysis may be complicated by:
 ## License?
 Do whatever you want. The compiler will judge you either way.
 
-# **Good luck building it.**
+> **Good luck building it.**
