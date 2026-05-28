@@ -13,10 +13,10 @@ Experimental compile-time adaptive execution framework written in cursed C++.
 > Your antivirus will not like this. That's expected.
 
 > ⚠️**Warning:** The author is not responsible for:
-> compiler crashes,
-> hardware overheating,
-> corrupted stack traces,
-> psychological damage caused by reading the source code
+> - compiler crashes,
+> - hardware overheating,
+> - corrupted stack traces,
+> - psychological damage caused by reading the source code
 
 ## Overview
 
@@ -32,6 +32,9 @@ The repository intentionally explores compiler edge cases and non-trivial runtim
 
 # **Good luck building it.**
 
+# License?
+Do whatever you want. The compiler will judge you either way.
+
 ## Build
 
 ```bash
@@ -44,5 +47,13 @@ compiler version
 - kernel version
 - entropy conditions
 
-# License?
-Do whatever you want. The compiler will judge you either way.
+
+```markdown id="0g0q1m"
+## Reverse Engineering
+
+Static and dynamic analysis may be complicated by:
+- encrypted runtime logic
+- inline assembly
+- self-debugging behavior
+- indirect execution paths
+- compile-time generated structures
